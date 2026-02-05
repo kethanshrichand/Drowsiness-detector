@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Images (except for the captured ones we want to track)
+drowsy_images/*
+yawn_images/*
+
+# Model files (if they're large, consider using Git LFS instead)
+class_labels.pkl
+drowsiness_model.pkl
+
+# Other
+.DS_Store
+Thumbs.db
